@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background:url(heder.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+
+	text-align:center;
+}
+h1{
+	font-size:3.5em;
+	color:grey;
+	text-transform:uppercase;
+}
+
+.buffer{
+	height:5rem;
+}
+
+hr{
+
+	background-color:red;
+	border-width:3px;
+	margin-bottom:7px;
+	 max-width:50px;
+	border-radius:5px;
+}
+
+ .btn-my{
+	
+	font-weight:300;
+	background:red;
+	padding:1rem 2rem;
+}
+
+.btn-primary{
+
+	border-radius:400px;
+	text-transform:uppercase;
+	font-weight:;
+	border-color:red;
+}
+.btn-primary:hover {
+
+	background-color:red;
+	border-color:red;
+	border-width:4px;
+}
